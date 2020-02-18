@@ -11,6 +11,8 @@ Or you may use 'devtools' to install it from github
 
     install_github("gefeizhang/ZIAQ")
 
+It is on the process to submit to 'CRAN', and can be downloaded from 'CRAN' once it is accepted. 
+
 Examples
 ------------
 Run `ZIAQ` for indiviual gene
