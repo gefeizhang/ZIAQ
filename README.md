@@ -16,7 +16,7 @@ Run `ZIAQ` for indiviual gene
     colDat = data.frame(condition = rep(c(1, 0), e = 50))
     res = ziaq_fit(y, colDat = colDat,  formula = ~ condition,
               group = 'condition', probs = c(0.25, 0.5, 0.75),
-              log_i = T )
+              log_i = TRUE )
 
 Run `ZIAQ` for scRNA gene matrix
     
@@ -29,7 +29,7 @@ Run `ZIAQ` for scRNA gene matrix
     
     res = ziaq(ymatrix, colDat, formula = ~ condition,
           group = 'condition', probs = c(0.25, 0.5, 0.75),
-          log_i = T, parallel = T, no.core = 1)
+          log_i = TRUE, parallel = FALSE, no.core = 1)
 
 
 Citation
