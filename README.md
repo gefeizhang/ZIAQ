@@ -9,6 +9,7 @@ https://github.com/gefeizhang/ZIAQ/blob/master/ZIAQ_1.0.tar.gz
 
 Or you may use 'devtools' to install it from github
 
+    library(devtools)
     install_github("gefeizhang/ZIAQ")
 
 It is on the process to submit to 'CRAN', and can be downloaded from 'CRAN' once it is accepted. 
