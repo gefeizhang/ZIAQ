@@ -7,6 +7,9 @@ Installation Instructions
 You may directly download source file `ZIAQ_1.0.tar.gz` from github link  
 https://github.com/gefeizhang/ZIAQ/blob/master/ZIAQ_1.0.tar.gz
 
+Or you may use 'devtools' to install it from github
+
+    install_github("gefeizhang/ZIAQ")
 
 Examples
 ------------
