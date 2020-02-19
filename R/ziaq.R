@@ -29,8 +29,8 @@
 #'
 #' @examples
 #' #Use simuluated data
-#'ymatrix = matrix(round(100* runif(100*500)), ncol = 100)
-#'rownames(ymatrix) = paste0('gene', 1:500)
+#'ymatrix = matrix(round(100* runif(100*150)), ncol = 100)
+#'rownames(ymatrix) = paste0('gene', 1:150)
 #'
 #'colDat = data.frame(condition = rep(c(1, 0), e = 50))
 #'
